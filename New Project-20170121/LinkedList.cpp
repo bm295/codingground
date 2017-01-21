@@ -8,7 +8,7 @@ LinkedList::LinkedList()
     head -> song = "head (with no song data)";
     head -> artist = "head (with no artist data)";
     head -> next = NULL;
-    listLength 0;
+    listLength = 0;
     cout << "Success: head node created. listLength set to 0." << endl;
 }
 
